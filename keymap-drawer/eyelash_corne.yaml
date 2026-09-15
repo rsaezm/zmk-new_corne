@@ -50,7 +50,7 @@ layers:
   - Raise
   - Fun/Media
   Qwerty:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -62,8 +62,8 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: Maxtend}
   - A
   - S
   - D
