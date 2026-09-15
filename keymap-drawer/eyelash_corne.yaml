@@ -27,8 +27,8 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: ., h: Maxtend}
+  - {t: ., h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-return$$', h: Maxtend}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -41,7 +41,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: Sft+;, s: 'Sft+:'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
