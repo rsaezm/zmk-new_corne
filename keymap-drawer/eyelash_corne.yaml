@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   Qty-HRM:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -13,13 +13,13 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: Maxtend}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: G, h: LGUI}
+  - {t: S, h: LEFT WIN}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: Sft+;, s: 'Sft+:'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
@@ -76,8 +76,8 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
-  - {t: ., h: Maxtend}
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', h: Maxtend}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -90,7 +90,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Adjust
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
@@ -384,7 +384,7 @@ layers:
   - _
   - '#'
   - NUBS
-  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - '|'
   - Adjust
   - Lower
