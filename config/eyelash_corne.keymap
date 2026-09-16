@@ -353,6 +353,13 @@
                 <&macro_release>,
                 <&kp LALT>;
         };
+
+        pwd1: pwd1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp O &kp R &kp K &kp B &kp N4 &kp P &kp M &kp N &kp DOT &kp K &kp DLLR &kp N6 &kp P &kp LS(S) &kp STAR &kp LS(N)>;
+            label = "PWD1";
+        };
     };
 
     keymap {
@@ -361,19 +368,19 @@
         qwerty_hr_layer {
             display-name = "Qty-HRM";
             bindings = <
-&kp TAB       &kp Q        &kp W        &kp E         &kp R         &kp T                                                &kp UP                &kp Y          &kp U         &kp I         &kp O        &kp P              &kp BSPC
-&lt MAX BSPC  &hml LALT A  &hml RALT S  &hml LSHFT D  &hml LCTRL F  &hml LGUI G                                &kp LEFT  &kp ENTER  &kp RIGHT  &hmr RGUI H    &hmr LCTRL J  &hmr RSHFT K  &hmr RALT L  &hmr LALT APOS     &lt MAX ENTER
-&kp LSHFT     &kp Z        &kp X        &kp C         &kp V         &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N          &kp M         &kp COMMA     &kp DOT      &kp LS(SEMICOLON)  &mt RSHFT ENTER
-                                        &mo ADJ       &lt LOW TAB   &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE       &mo FUN
+&kp ESC      &kp Q        &kp W            &kp E                &kp R              &kp T                                                &kp UP                &kp Y          &kp U         &kp I         &kp O        &kp P              &hmr DELETE BACKSPACE
+&lt MAX TAB  &hml LALT A  &hml LEFT_WIN S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G                                      &kp LEFT  &kp ENTER  &kp RIGHT  &hmr RGUI H    &hmr LCTRL J  &hmr RSHFT K  &hmr RALT L  &hmr LALT APOS     &lt MAX ENTER
+&kp LSHFT    &kp Z        &kp X            &kp C                &kp V              &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N          &kp M         &kp COMMA     &kp DOT      &kp LS(SEMICOLON)  &kp RSHFT
+                                           &mo ADJ              &lt LOW TAB        &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE       &mo FUN
             >;
         };
 
         qwerty_layer {
             display-name = "Qwerty";
             bindings = <
-&kp ESCAPE   &kp Q  &kp W  &kp E    &kp R        &kp T                                                &kp UP                &kp Y          &kp U    &kp I      &kp O    &kp P      &hmr DEL BACKSPACE
-&lt MAX TAB  &kp A  &kp S  &kp D    &kp F        &kp G                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp J    &kp K      &kp L    &kp SEMI   &lt MAX APOS
-&kp LSHFT    &kp Z  &kp X  &kp C    &kp V        &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N          &kp M    &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
+&kp ESCAPE   &kp Q  &kp W  &kp E    &kp R        &kp T                                                &kp UP                &kp Y          &kp U    &kp I      &kp O    &kp P             &hmr DEL BACKSPACE
+&lt MAX TAB  &kp A  &kp S  &kp D    &kp F        &kp G                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp J    &kp K      &kp L    &kp SINGLE_QUOTE  &lt MAX ENTER
+&kp LSHFT    &kp Z  &kp X  &kp C    &kp V        &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N          &kp M    &kp COMMA  &kp DOT  &kp SEMICOLON     &mt RSHFT ENTER
                            &mo ADJ  &lt LOW TAB  &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE  &mo FUN
             >;
         };
@@ -433,9 +440,9 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&kp ESC     &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                            &kp UP                &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp DEL
-&caps_word  &kp LT    &kp GT    &kp LPAR  &kp RPAR  &kp MINUS               &kp LEFT  &kp ENTER  &kp RIGHT  &kp PLUS   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp GRAVE
-&kp LSHFT   &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC  &kp LS(P)  &kp SPACE              &kp DOWN              &kp TILDE  &kp UNDER  &kp NUHS   &kp NUBS  &kp BSLH  &kp PIPE
+&kp ESC     &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                            &kp UP                &kp N6     &kp N7     &kp N8     &kp N9    &kp N0     &kp DEL
+&caps_word  &kp LT    &kp GT    &kp LPAR  &kp RPAR  &kp MINUS               &kp LEFT  &kp ENTER  &kp RIGHT  &kp PLUS   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp GRAVE
+&kp LSHFT   &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC  &kp LS(P)  &kp SPACE              &kp DOWN              &kp TILDE  &kp UNDER  &kp NUHS   &kp NUBS  &kp SLASH  &kp PIPE
                                 &mo ADJ   &mo LOW   &kp BSPC                                                &kp SPACE  &mo RSE    &tog FUN
             >;
         };
