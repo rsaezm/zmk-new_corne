@@ -357,9 +357,9 @@
             display-name = "Qty-HRM";
             bindings = <
 &kp ESC         &kp Q            &kp W            &kp E                &kp R              &kp T                                              &kp UP                &kp Y        &kp U               &kp I                 &kp O             &kp P               &kp BACKSPACE
-&lt 3 CAPSLOCK  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G                                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_WIN SQT  &lt 3 DELETE
+&lt 2 CAPSLOCK  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G                                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_WIN SQT  &lt 2 DELETE
 &kp LSHFT       &kp Z            &kp X            &kp C                &kp V              &kp B        &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N        &kp M               &kp COMMA             &kp DOT           &kp SEMICOLON       &mt RSHIFT ENTER
-                                                  &mo 4                &lt 6 TAB          &lt 7 SPACE                                                              &lt 8 SPACE  &mo 9               &mo 10
+                                                  &mo 3                &lt 5 TAB          &lt 6 SPACE                                                              &lt 7 SPACE  &mo 8               &mo 9
             >;
         };
 
@@ -367,19 +367,9 @@
             display-name = "Qwerty";
             bindings = <
 &kp ESCAPE      &kp Q  &kp W  &kp E  &kp R      &kp T                                              &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P             &kp BACKSPACE
-&lt 3 CAPSLOCK  &kp A  &kp S  &kp D  &kp F      &kp G                                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &lt 3 DELETE
+&lt 2 CAPSLOCK  &kp A  &kp S  &kp D  &kp F      &kp G                                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &lt 2 DELETE
 &kp LSHFT       &kp Z  &kp X  &kp C  &kp V      &kp B        &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON     &mt RSHFT ENTER
-                              &mo 4  &lt 6 TAB  &lt 7 SPACE                                                              &lt 8 SPACE  &mo 9  &mo 10
-            >;
-        };
-
-        transparent_layer {
-            display-name = "QWERTY (base)";
-            bindings = <
-&kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I      &kp O    &kp P             &kp BSPC
-&kp CAPS   &kp A  &kp S  &kp D  &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &kp DELETE
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON     &mt RSHFT ENTER
-                         &mo 4  &mo 6  &kp SPACE                                               &kp SPACE  &mo 9  &mo 10
+                              &mo 3  &lt 5 TAB  &lt 6 SPACE                                                              &lt 7 SPACE  &mo 8  &mo 9
             >;
         };
 
@@ -389,16 +379,16 @@
 &kp TAB    &kp ESC       &kp KP_NUMLOCK  &kp C_AC_BACK     &kp C_AC_FORWARD  &msc SCRL_UP                           &kp UP                &kp PG_UP      &kp HOME  &kp UP    &kp END    &kp DEL    &kp INS
 &trans     &kp LEFT_WIN  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT    &msc SCRL_DOWN               &kp LEFT  &kp ENTER  &kp RIGHT  &kp PG_DN      &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSPC   &kp ENTER
 &kp LSHFT  &kp LC(Z)     &kp LC(X)       &kp LC(C)         &kp LC(V)         &kp LC(B)       &kp SPACE              &kp DOWN              &trans         &trans    &trans    &kp RCTRL  &kp K_APP  &kp RSHFT
-                                         &mo 4             &kp LA(TAB)       &kp ENTER                                                    &kp LC(SPACE)  &mo 9     &mo 10
+                                         &mo 3             &kp LA(TAB)       &kp ENTER                                                    &kp LC(SPACE)  &mo 8     &mo 9
             >;
         };
 
         adjust_layer {
             display-name = "Adjust";
             bindings = <
-&kp LA(TAB)  &to 0         &to 1         &to 12        &to 13        &to 14                               &kp UP                &rgb_ug RGB_ON   &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &kp LC(LA(DEL))
+&kp LA(TAB)  &to 0         &to 1         &none         &none         &none                                &kp UP                &rgb_ug RGB_ON   &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &kp LC(LA(DEL))
 &kp DEL      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4               &kp LEFT  &kp ENTER  &kp RIGHT  &rgb_ug RGB_OFF  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG
-&mo 5        &none         &out OUT_TOG  &out OUT_USB  &out OUT_BLE  &aim AIM_TOG  &kp SPACE              &kp DOWN              &bl BL_ON        &bl BL_OFF       &bl BL_INC       &bl BL_DEC       &bl BL_CYCLE     &bl BL_TOG
+&mo 4        &none         &out OUT_TOG  &out OUT_USB  &out OUT_BLE  &aim AIM_TOG  &kp SPACE              &kp DOWN              &bl BL_ON        &bl BL_OFF       &bl BL_INC       &bl BL_DEC       &bl BL_CYCLE     &bl BL_TOG
                                          &trans        &sys_reset    &bootloader                                                &bootloader      &sys_reset       &studio_unlock
             >;
         };
@@ -406,7 +396,7 @@
         adjust2_layer {
             display-name = "Adjust 2";
             bindings = <
-&none    &to 0          &to 1          &to 12         &to 13         &to 14                                &kp UP                &rgb_ug RGB_ON   &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &bt BT_CLR_ALL
+&none    &to 0          &to 1          &none          &none          &none                                 &kp UP                &rgb_ug RGB_ON   &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &bt BT_CLR_ALL
 &kp DEL  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4               &kp LEFT  &kp ENTER  &kp RIGHT  &rgb_ug RGB_OFF  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG
 &trans   &bt BT_CLR     &bt BT_CLR     &out OUT_USB   &out OUT_BLE   &none          &kp SPACE              &kp DOWN              &bl BL_ON        &bl BL_OFF       &bl BL_INC       &bl BL_DEC       &bl BL_CYCLE     &bl BL_TOG
                                        &trans         &sys_reset     &bootloader                                                 &bootloader      &sys_reset       &studio_unlock
@@ -429,7 +419,7 @@
 &kp ESC    &kp ESC        &kp LC(W)      &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LC(F)                                        &kp UP                &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp P      &kp BSPC
 &kp CAPS   &kp A          &mkp MB2       &mkp MB3       &mkp MB1       &kp G                                  &kp LEFT  &kp ENTER  &kp RIGHT  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp ENTER  &kp ENTER
 &kp LSHFT  &kp C_AL_LOCK  &kp LC(LS(X))  &kp LC(LS(C))  &kp LC(LS(V))  &mup LC(SPACE) LC(LS(M))  &kp SPACE              &kp DOWN              &kp LC(LS(N))   &kp M           &kp COMMA       &kp DOT          &kp SLASH  &kp RSHFT
-                                         &mo 4          &mo 6          &kp SPACE                                                              &mkp MB1        &mo 9           &mo 10
+                                         &mo 3          &mo 5          &kp SPACE                                                              &mkp MB1        &mo 8           &mo 9
             >;
         };
 
@@ -439,7 +429,7 @@
 &kp TAB    &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                         &kp UP                &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR   &kp MINUS
 &trans     &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                  &kp LEFT  &kp ENTER  &kp RIGHT  &kp N6     &kp N7    &kp N8     &kp N9    &kp N0     &kp PLUS
 &kp LSHFT  &kp MINUS  &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC   &kp SPACE              &kp DOWN              &kp LS(P)  &kp P     &kp COMMA  &kp DOT   &kp SLASH  &mt RSHFT EQUAL
-                                &mo 4     &mo 6     &kp ENTER                                               &trans     &mo 9     &mo 10
+                                &mo 3     &mo 5     &kp ENTER                                               &trans     &mo 8     &mo 9
             >;
         };
 
@@ -449,7 +439,7 @@
 &kp ESC     &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                            &kp UP                &kp N6     &kp N7     &kp N8     &kp N9    &kp N0     &kp DEL
 &caps_word  &kp LT    &kp GT    &kp LPAR  &kp RPAR  &kp MINUS               &kp LEFT  &kp ENTER  &kp RIGHT  &kp PLUS   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp GRAVE
 &kp LSHFT   &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC  &kp LS(P)  &kp SPACE              &kp DOWN              &kp TILDE  &kp UNDER  &kp NUHS   &kp NUBS  &kp SLASH  &kp PIPE
-                                &mo 4     &mo 6     &kp BSPC                                                &kp SPACE  &mo 9      &tog 10
+                                &mo 3     &mo 5     &kp BSPC                                                &kp SPACE  &mo 8      &tog 9
             >;
         };
 
@@ -463,68 +453,6 @@
 &kp CAPS  &kp F6   &kp F7   &kp F8          &kp F9      &kp F10                   &kp LEFT  &kp ENTER  &kp RIGHT  &trans         &kp C_PREV                &kp C_VOL_DN  &kp C_NEXT  &kp UP    &trans
 &trans    &kp F11  &kp F12  &trans          &trans      &trans       &kp SPACE              &kp DOWN              &kp LC(LS(N))  &mup LC(SPACE) LC(LS(M))  &kp C_MUTE    &kp LEFT    &kp DOWN  &kp RIGHT
                             &studio_unlock  &sys_reset  &bootloader                                               &bootloader    &sys_reset                &trans
-            >;
-        };
-
-        numtab_layer {
-            display-name = "NumTab";
-            bindings = <
-&kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I      &kp O    &kp P      &kp BSPC
-&kp CAPS   &kp A  &kp S  &kp D  &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K      &kp L    &kp SEMI   &kp APOS
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
-                         &mo 4  &mo 6  &kp SPACE                                               &kp SPACE  &mo 9  &mo 10
-            >;
-        };
-
-        colemak_hr_layer {
-            display-name = "CmkHRM";
-            bindings = <
-&kp TAB     &kp Q        &kp W      &kp F         &kp P         &kp G                                              &kp UP                &kp J        &kp L         &kp U         &kp Y      &kp SEMI     &kp BSPC
-&lt 3 BSPC  &hml LALT A  &hll 16 R  &hml LSHFT S  &hml LCTRL T  &hml LGUI D                              &kp LEFT  &kp ENTER  &kp RIGHT  &hmr RGUI H  &hmr LCTRL N  &hmr RSHFT E  &hlr 16 I  &hmr LALT O  &lt 3 APOS
-&kp LSHFT   &kp Z        &kp X      &kp C         &kp V         &kp B        &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp K        &kp M         &kp COMMA     &kp DOT    &kp SLASH    &mt RSHFT ENTER
-                                    &mo 4         &lt 6 TAB     &lt 7 SPACE                                                              &lt 8 SPACE  &mo 9         &mo 10
-            >;
-        };
-
-        colemak_layer {
-            display-name = "Colemak";
-            bindings = <
-&kp TAB     &kp Q  &kp W  &kp F  &kp P      &kp G                                              &kp UP                &kp J        &kp L  &kp U      &kp Y    &kp SEMI   &kp BSPC
-&lt 3 BSPC  &kp A  &kp R  &kp S  &kp T      &kp D                                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N  &kp E      &kp I    &kp O      &lt 3 APOS
-&kp LSHFT   &kp Z  &kp X  &kp C  &kp V      &kp B        &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp K        &kp M  &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
-                          &mo 4  &lt 6 TAB  &lt 7 SPACE                                                              &lt 8 SPACE  &mo 9  &mo 10
-            >;
-        };
-
-        revmak_hr_layer {
-            // hrm functionality currently missing on this layer
-
-            display-name = "rev-Cmk";
-            bindings = <
-&kp TAB     &kp Q  &kp W  &kp K  &kp S      &kp F                                              &kp UP                &kp O        &kp I  &kp L      &kp SEMI  &kp R      &kp BSPC
-&lt 3 BSPC  &kp A  &kp D  &kp G  &kp E      &kp T                                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp Y  &kp N      &kp U     &kp P      &lt 3 APOS
-&kp LSHFT   &kp Z  &kp X  &kp C  &kp V      &kp B        &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp J        &kp M  &kp COMMA  &kp DOT   &kp SLASH  &mt RSHFT ENTER
-                          &mo 4  &lt 6 TAB  &lt 7 SPACE                                                              &lt 8 SPACE  &mo 9  &mo 10
-            >;
-        };
-
-        altgr_layer {
-            display-name = "AltGr";
-            bindings = <
-&kp TAB       &uml_a  &kp W  &kp E      &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I      &uml_u   &uml_o     &kp BSPC
-&kp CAPS      &kp A   &kp S  &lsz 16 0  &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &lt 16 K   &kp L    &kp SEMI   &kp APOS
-&lt 16 LSHFT  &kp Z   &kp X  &kp C      &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 0 RSHFT
-                             &mo 4      &mo 6  &kp SPACE                                               &kp SPACE  &mo 9  &mo 10
-            >;
-        };
-
-        altgrshift_layer {
-            display-name = "AltGrShft";
-            bindings = <
-&kp TAB    &umu_a  &kp W  &kp E    &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I      &umu_u   &umu_o     &kp BSPC
-&kp CAPS   &kp A   &kp S  &uml_sz  &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K      &kp L    &kp SEMI   &kp APOS
-&kp LSHFT  &kp Z   &kp X  &kp C    &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RSHFT
-                          &mo 4    &mo 6  &kp SPACE                                               &kp SPACE  &mo 9  &mo 10
             >;
         };
     };
