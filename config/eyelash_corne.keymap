@@ -361,18 +361,18 @@
         qwerty_hr_layer {
             display-name = "Qty-HRM";
             bindings = <
-&kp ESC      &kp Q  &kp W                &kp E            &kp R            &kp T                                                    &kp UP                &kp Y               &kp U             &kp I             &kp O                 &kp P          &hmr DELETE BACKSPACE
-&lt MAX TAB  &kp A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_WIN F  &hml LEFT_SHIFT G                              &kp LEFT  &kp ENTER  &kp RIGHT  &hmr RIGHT_SHIFT H  &hmr RIGHT_GUI J  &hmr RIGHT_ALT K  &hmr RIGHT_CONTROL L  &kp SQT        &lt MAX ENTER
-&kp LSHFT    &kp Z  &kp X                &kp C            &kp V            &kp B              &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N               &kp M             &kp COMMA         &kp DOT               &kp SEMICOLON  &kp RSHFT
-                                         &mo ADJ          &lt LOW TAB      &lt MSE SPACE                                                                  &lt NSP SPACE       &mo RSE           &mo FUN
+&kp ESC      &kp Q          &kp W                &kp E            &kp R            &kp T                                                &kp UP                &kp Y          &kp U             &kp I             &kp O                 &kp P            &hmr DELETE BACKSPACE
+&lt MAX TAB  &hml LSHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_WIN F  &kp G                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &hmr RIGHT_GUI J  &hmr RIGHT_ALT K  &hmr RIGHT_CONTROL L  &hmr RSHIFT SQT  &lt MAX ENTER
+&kp LSHFT    &kp Z          &kp X                &kp C            &kp V            &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N          &kp M             &kp COMMA         &kp DOT               &kp SEMICOLON    &kp RSHFT
+                                                 &mo ADJ          &lt LOW TAB      &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE           &mo FUN
             >;
         };
 
         qwerty_layer {
             display-name = "Qwerty";
             bindings = <
-&kp ESCAPE   &kp Q  &kp W  &kp E    &kp R        &kp T                                                &kp UP                &kp Y          &kp U    &kp I      &kp O    &kp P             &hmr DEL BACKSPACE
-&lt MAX TAB  &kp A  &kp S  &kp D    &kp F        &kp G                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp J    &kp K      &kp L    &kp SINGLE_QUOTE  &lt MAX ENTER
+&kp ESCAPE   &kp Q  &kp W  &kp E    &kp R        &kp T                                                &kp UP                &kp Y          &kp U    &kp I      &kp O    &kp P             &kp BACKSPACE
+&lt MAX TAB  &kp A  &kp S  &kp D    &kp F        &kp G                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp J    &kp K      &kp L    &kp SINGLE_QUOTE  &lt MAX DELETE
 &kp LSHFT    &kp Z  &kp X  &kp C    &kp V        &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N          &kp M    &kp COMMA  &kp DOT  &kp SEMICOLON     &mt RSHFT ENTER
                            &mo ADJ  &lt LOW TAB  &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE  &mo FUN
             >;
