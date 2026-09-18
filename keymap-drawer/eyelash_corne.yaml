@@ -294,6 +294,55 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: held alternate}
   - '&studio_unlock'
+  Adjust 2:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Qty-HRM, h: toggle}
+  - {t: Qwerty, h: toggle}
+  - {t: CmkHRM, h: toggle}
+  - {t: Colemak, h: toggle}
+  - {t: rev-Cmk, h: toggle}
+  - $$mdi:arrow-up-bold$$
+  - RGB ON
+  - RGB SAI
+  - RGB BRI
+  - RGB HUI
+  - RGB EFF
+  - BT CLR ALL
+  - $$mdi:backspace-reverse-outline$$
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - RGB OFF
+  - RGB SAD
+  - RGB BRD
+  - RGB HUD
+  - RGB EFR
+  - RGB TOG
+  - {type: held}
+  - $$mdi:bluetooth-off$$
+  - $$mdi:bluetooth-off$$
+  - OUT USB
+  - OUT BLE
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - '&bl BL_ON'
+  - '&bl BL_OFF'
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - '&bl BL_CYCLE'
+  - '&bl BL_TOG'
+  - {type: held}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: held}
+  - '&studio_unlock'
   Fun/Media:
   - $$mdi:keyboard-tab$$
   - F1
@@ -346,10 +395,10 @@ layers:
   Maxtend:
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-esc$$
-  - $$mdi:pan-up$$
+  - KP NUMLOCK
   - AC BACK
   - AC FORWARD
-  - KP NUMLOCK
+  - $$mdi:pan-up$$
   - $$mdi:arrow-up-bold$$
   - PG UP
   - HOME
@@ -358,11 +407,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - INS
   - {type: held}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:pan-down$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - LEFT WIN
+  - $$mdi:pan-down$$
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
@@ -637,55 +686,6 @@ layers:
   - $$mdi:keyboard-space$$
   - Raise
   - Fun/Media
-  Adjust 2:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Qty-HRM, h: toggle}
-  - {t: Qwerty, h: toggle}
-  - {t: CmkHRM, h: toggle}
-  - {t: Colemak, h: toggle}
-  - {t: rev-Cmk, h: toggle}
-  - $$mdi:arrow-up-bold$$
-  - RGB ON
-  - RGB SAI
-  - RGB BRI
-  - RGB HUI
-  - RGB EFF
-  - BT CLR ALL
-  - $$mdi:backspace-reverse-outline$$
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
-  - {t: BT DISC, h: '2'}
-  - {t: BT DISC, h: '3'}
-  - {t: BT DISC, h: '4'}
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - RGB OFF
-  - RGB SAD
-  - RGB BRD
-  - RGB HUD
-  - RGB EFR
-  - RGB TOG
-  - {type: held}
-  - $$mdi:bluetooth-off$$
-  - $$mdi:bluetooth-off$$
-  - OUT USB
-  - OUT BLE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
-  - '&bl BL_ON'
-  - '&bl BL_OFF'
-  - '&bl BL_INC'
-  - '&bl BL_DEC'
-  - '&bl BL_CYCLE'
-  - '&bl BL_TOG'
-  - {type: held}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:progress-download$$
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: held}
-  - '&studio_unlock'
   CmkHRM:
   - $$mdi:keyboard-tab$$
   - Q
