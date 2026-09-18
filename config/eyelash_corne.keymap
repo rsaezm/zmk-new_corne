@@ -353,13 +353,6 @@
                 <&macro_release>,
                 <&kp LALT>;
         };
-
-        pwd1: pwd1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp O &kp R &kp K &kp B &kp N4 &kp P &kp M &kp N &kp DOT &kp K &kp DLLR &kp N6 &kp P &kp LS(S) &kp STAR &kp LS(N)>;
-            label = "PWD1";
-        };
     };
 
     keymap {
