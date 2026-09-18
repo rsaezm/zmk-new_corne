@@ -98,153 +98,6 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
   - Raise
   - Fun/Media
-  CmkHRM:
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - F
-  - P
-  - G
-  - $$mdi:arrow-up-bold$$
-  - J
-  - L
-  - U
-  - Y
-  - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: R, h: AltGr}
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: D, h: LGUI}
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - {t: H, h: RGUI}
-  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: I, h: AltGr}
-  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ., h: Maxtend}
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
-  - $$mdi:arrow-down-bold$$
-  - K
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - Adjust
-  - {t: '$$mdi:keyboard-tab$$', h: Lower}
-  - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
-  - Raise
-  - Fun/Media
-  Colemak:
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - F
-  - P
-  - G
-  - $$mdi:arrow-up-bold$$
-  - J
-  - L
-  - U
-  - Y
-  - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
-  - A
-  - R
-  - S
-  - T
-  - D
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - H
-  - N
-  - E
-  - I
-  - O
-  - {t: ., h: Maxtend}
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
-  - $$mdi:arrow-down-bold$$
-  - K
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - Adjust
-  - {t: '$$mdi:keyboard-tab$$', h: Lower}
-  - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
-  - Raise
-  - Fun/Media
-  rev-Cmk:
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - K
-  - S
-  - F
-  - $$mdi:arrow-up-bold$$
-  - O
-  - I
-  - L
-  - {t: ;, s: ':'}
-  - R
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
-  - A
-  - D
-  - G
-  - E
-  - T
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - H
-  - Y
-  - N
-  - U
-  - P
-  - {t: ., h: Maxtend}
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
-  - $$mdi:arrow-down-bold$$
-  - J
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - Adjust
-  - {t: '$$mdi:keyboard-tab$$', h: Lower}
-  - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
-  - Raise
-  - Fun/Media
   QWERTY (base):
   - $$mdi:keyboard-tab$$
   - Q
@@ -394,10 +247,10 @@ layers:
   - {t: Fun/Media, h: toggle}
   Adjust:
   - Alt+$$mdi:keyboard-tab$$
-  - {t: Qwerty, h: toggle}
   - {t: Qty-HRM, h: toggle}
-  - {t: Colemak, h: toggle}
+  - {t: Qwerty, h: toggle}
   - {t: CmkHRM, h: toggle}
+  - {t: Colemak, h: toggle}
   - {t: rev-Cmk, h: toggle}
   - $$mdi:arrow-up-bold$$
   - RGB ON
@@ -702,7 +555,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - A
-  - {t: S, type: held}
+  - S
   - {t: '&uml_sz', h: AltGrShft}
   - F
   - G
@@ -712,7 +565,7 @@ layers:
   - H
   - J
   - {t: K, h: AltGrShft}
-  - {t: L, type: held alternate}
+  - L
   - {t: ;, s: ':'}
   - .
   - {t: '$$mdi:apple-keyboard-shift$$', h: AltGrShft}
@@ -751,7 +604,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - A
-  - {t: S, type: held}
+  - S
   - {t: '&uml_sz', type: held}
   - F
   - G
@@ -761,7 +614,7 @@ layers:
   - H
   - J
   - {t: K, type: held alternate}
-  - {t: L, type: held}
+  - L
   - {t: ;, s: ':'}
   - .
   - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
@@ -786,10 +639,10 @@ layers:
   - Fun/Media
   Adjust 2:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Qwerty, h: toggle}
   - {t: Qty-HRM, h: toggle}
-  - {t: Colemak, h: toggle}
+  - {t: Qwerty, h: toggle}
   - {t: CmkHRM, h: toggle}
+  - {t: Colemak, h: toggle}
   - {t: rev-Cmk, h: toggle}
   - $$mdi:arrow-up-bold$$
   - RGB ON
@@ -818,7 +671,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - OUT USB
   - OUT BLE
-  - '&aim AIM_OFF'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - '&bl BL_ON'
@@ -833,21 +686,163 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: held}
   - '&studio_unlock'
+  CmkHRM:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - $$mdi:arrow-up-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: R, h: AltGr}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: LGUI}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - {t: H, h: RGUI}
+  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: AltGr}
+  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ., h: Maxtend}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - $$mdi:arrow-down-bold$$
+  - K
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - Adjust
+  - {t: '$$mdi:keyboard-tab$$', h: Lower}
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
+  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
+  - Raise
+  - Fun/Media
+  Colemak:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - $$mdi:arrow-up-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - A
+  - R
+  - S
+  - T
+  - D
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - H
+  - N
+  - E
+  - I
+  - O
+  - {t: ., h: Maxtend}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - $$mdi:arrow-down-bold$$
+  - K
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - Adjust
+  - {t: '$$mdi:keyboard-tab$$', h: Lower}
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
+  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
+  - Raise
+  - Fun/Media
+  rev-Cmk:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - K
+  - S
+  - F
+  - $$mdi:arrow-up-bold$$
+  - O
+  - I
+  - L
+  - {t: ;, s: ':'}
+  - R
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - A
+  - D
+  - G
+  - E
+  - T
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - H
+  - Y
+  - N
+  - U
+  - P
+  - {t: ., h: Maxtend}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - $$mdi:arrow-down-bold$$
+  - J
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - Adjust
+  - {t: '$$mdi:keyboard-tab$$', h: Lower}
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
+  - {t: '$$mdi:keyboard-space$$', h: NumSpc}
+  - Raise
+  - Fun/Media
 combos:
 - p: [1, 2]
   k: $$mdi:keyboard-esc$$
-  l: [Qwerty, Qty-HRM, Colemak, CmkHRM, rev-Cmk, QWERTY (base)]
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-  l: [Qwerty, Qty-HRM, Colemak, CmkHRM, rev-Cmk, QWERTY (base)]
 - p: [26, 27]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [Qwerty, Qty-HRM, Colemak, CmkHRM, rev-Cmk, QWERTY (base), Lower, Raise]
 - p: [23, 24, 25]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [Qwerty, Qty-HRM, Colemak, CmkHRM, rev-Cmk, QWERTY (base), Lower, Raise]
 - p: [0, 1]
   k: '&blockquote'
-  l: [Raise, Fun/Media, NumSpc]
 - p: [1, 15, 29]
   k: '&soft_off'
