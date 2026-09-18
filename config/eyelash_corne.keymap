@@ -511,10 +511,10 @@
         altgr_layer {
             display-name = "AltGr";
             bindings = <
-&kp TAB      &uml_a  &kp W  &kp E     &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I      &uml_u   &uml_o     &kp BSPC
-&kp CAPS     &kp A   &kp S  &lsz 0 0  &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &lt 0 K    &kp L    &kp SEMI   &kp APOS
-&lt 0 LSHFT  &kp Z   &kp X  &kp C     &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 0 RSHFT
-                            &mo 4     &mo 6  &kp SPACE                                               &kp SPACE  &mo 9  &mo 10
+&kp TAB       &uml_a  &kp W  &kp E      &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I      &uml_u   &uml_o     &kp BSPC
+&kp CAPS      &kp A   &kp S  &lsz 16 0  &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &lt 16 K   &kp L    &kp SEMI   &kp APOS
+&lt 16 LSHFT  &kp Z   &kp X  &kp C      &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 0 RSHFT
+                             &mo 4      &mo 6  &kp SPACE                                               &kp SPACE  &mo 9  &mo 10
             >;
         };
 
