@@ -752,7 +752,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
-  - {t: '&uml_sz', h: Qty-HRM}
+  - {t: '&uml_sz', h: AltGrShft}
   - F
   - G
   - $$mdi:arrow-left-bold$$
@@ -760,11 +760,11 @@ layers:
   - $$mdi:arrow-right-bold$$
   - H
   - J
-  - {t: K, h: Qty-HRM}
+  - {t: K, h: AltGrShft}
   - L
   - {t: ;, s: ':'}
   - .
-  - {t: '$$mdi:apple-keyboard-shift$$', h: Qty-HRM}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: AltGrShft}
   - Z
   - X
   - C
@@ -801,7 +801,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - A
   - {t: S, type: held}
-  - '&uml_sz'
+  - {t: '&uml_sz', type: held alternate}
   - F
   - G
   - $$mdi:arrow-left-bold$$
@@ -809,11 +809,11 @@ layers:
   - $$mdi:arrow-right-bold$$
   - H
   - J
-  - K
+  - {t: K, type: held alternate}
   - {t: L, type: held alternate}
   - {t: ;, s: ':'}
   - .
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - Z
   - X
   - C

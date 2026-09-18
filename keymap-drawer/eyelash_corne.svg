@@ -4911,8 +4911,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap"><tspan style="font-size: 86%">&amp;uml_sz</tspan></text>
-<a href="#Qty-HRM">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Qty-HRM</tspan></text>
+<a href="#AltGrShft">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">AltGrShft</tspan></text>
 </a></g>
 <g transform="translate(252, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -4953,8 +4953,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">K</text>
-<a href="#Qty-HRM">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Qty-HRM</tspan></text>
+<a href="#AltGrShft">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">AltGrShft</tspan></text>
 </a></g>
 <g transform="translate(840, 91)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -4976,8 +4976,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
-<a href="#Qty-HRM">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Qty-HRM</tspan></text>
+<a href="#AltGrShft">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">AltGrShft</tspan></text>
 </a></g>
 <g transform="translate(84, 161)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -5196,10 +5196,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 <text x="0" y="-4" class="key held tap">S</text>
 </g>
-<g transform="translate(196, 84)" class="key keypos-16">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 86%">&amp;uml_sz</tspan></text>
+<g transform="translate(196, 84)" class="key held alternate keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
+<text x="0" y="-4" class="key held alternate tap"><tspan style="font-size: 86%">&amp;uml_sz</tspan></text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -5236,10 +5236,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">J</text>
 </g>
-<g transform="translate(784, 84)" class="key keypos-24">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">K</text>
+<g transform="translate(784, 84)" class="key held alternate keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
+<text x="0" y="-4" class="key held alternate tap">K</text>
 </g>
 <g transform="translate(840, 91)" class="key held alternate keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
@@ -5257,10 +5257,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">.</text>
 </g>
-<g transform="translate(28, 161)" class="key keypos-28">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-shift"/>
+<g transform="translate(28, 161)" class="key held alternate keypos-28">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="-13" height="18" width="18.0" class="key held alternate tap glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(84, 161)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
