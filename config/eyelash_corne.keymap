@@ -356,10 +356,10 @@
         qwerty_hr_layer {
             display-name = "Qty-HRM";
             bindings = <
-&kp ESC         &kp Q          &kp W                &kp E            &kp R            &kp T                                              &kp UP                &kp Y        &kp U             &kp I             &kp O                 &kp P            &kp BACKSPACE
-&lt 3 CAPSLOCK  &hml LSHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_WIN F  &kp G                                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hmr RIGHT_GUI J  &hmr RIGHT_ALT K  &hmr RIGHT_CONTROL L  &hmr RSHIFT SQT  &lt 3 DELETE
-&kp LSHFT       &kp Z          &kp X                &kp C            &kp V            &kp B        &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N        &kp M             &kp COMMA         &kp DOT               &kp SEMICOLON    &mt RSHIFT ENTER
-                                                    &mo 4            &lt 6 TAB        &lt 7 SPACE                                                              &lt 8 SPACE  &mo 9             &mo 10
+&kp ESC         &kp Q            &kp W            &kp E                &kp R              &kp T                                              &kp UP                &kp Y        &kp U               &kp I                 &kp O             &kp P               &kp BACKSPACE
+&lt 3 CAPSLOCK  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G                                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_WIN SQT  &lt 3 DELETE
+&kp LSHFT       &kp Z            &kp X            &kp C                &kp V              &kp B        &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N        &kp M               &kp COMMA             &kp DOT           &kp SEMICOLON       &mt RSHIFT ENTER
+                                                  &mo 4                &lt 6 TAB          &lt 7 SPACE                                                              &lt 8 SPACE  &mo 9               &mo 10
             >;
         };
 
@@ -386,10 +386,10 @@
         maxtend_layer {
             display-name = "Maxtend";
             bindings = <
-&kp TAB    &kp ESC     &kp KP_NUMLOCK    &kp C_AC_BACK  &kp C_AC_FORWARD  &msc SCRL_UP                           &kp UP                &kp PG_UP      &kp HOME  &kp UP    &kp END    &kp DEL    &kp INS
-&trans     &kp LSHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT   &kp LEFT_WIN      &msc SCRL_DOWN               &kp LEFT  &kp ENTER  &kp RIGHT  &kp PG_DN      &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSPC   &kp ENTER
-&kp LSHFT  &kp LC(Z)   &kp LC(X)         &kp LC(C)      &kp LC(V)         &kp LC(B)       &kp SPACE              &kp DOWN              &trans         &trans    &trans    &kp RCTRL  &kp K_APP  &kp RSHFT
-                                         &mo 4          &kp LA(TAB)       &kp ENTER                                                    &kp LC(SPACE)  &mo 9     &mo 10
+&kp TAB    &kp ESC       &kp KP_NUMLOCK  &kp C_AC_BACK     &kp C_AC_FORWARD  &msc SCRL_UP                           &kp UP                &kp PG_UP      &kp HOME  &kp UP    &kp END    &kp DEL    &kp INS
+&trans     &kp LEFT_WIN  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT    &msc SCRL_DOWN               &kp LEFT  &kp ENTER  &kp RIGHT  &kp PG_DN      &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSPC   &kp ENTER
+&kp LSHFT  &kp LC(Z)     &kp LC(X)       &kp LC(C)         &kp LC(V)         &kp LC(B)       &kp SPACE              &kp DOWN              &trans         &trans    &trans    &kp RCTRL  &kp K_APP  &kp RSHFT
+                                         &mo 4             &kp LA(TAB)       &kp ENTER                                                    &kp LC(SPACE)  &mo 9     &mo 10
             >;
         };
 
