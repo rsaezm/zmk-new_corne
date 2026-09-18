@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', h: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:keyboard-tab$$', h: Maxtend}
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F, h: LEFT WIN}
-  - {t: G, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - H
   - {t: J, h: RIGHT GUI}
   - {t: K, h: '$$mdi:apple-keyboard-option$$'}
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '''', s: '"'}
+  - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
   - {t: '$$mdi:keyboard-return$$', h: Maxtend}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -62,7 +62,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-tab$$', h: Maxtend}
   - A
   - S
@@ -77,7 +77,7 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - {t: '$$mdi:keyboard-return$$', h: Maxtend}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Maxtend}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
