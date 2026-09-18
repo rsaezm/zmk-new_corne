@@ -147,251 +147,6 @@ layers:
   - $$mdi:keyboard-space$$
   - Raise
   - Fun/Media
-  Lower:
-  - $$mdi:keyboard-esc$$
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - $$mdi:arrow-up-bold$$
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - KP ASTERISK
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - KP ENTER
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F11
-  - F12
-  - AL CALC
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - P
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
-  - $$mdi:arrow-down-bold$$
-  - Sft+P
-  - KP 1
-  - KP 2
-  - KP 3
-  - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - KP 0
-  - KP DOT
-  Raise:
-  - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - $$mdi:backspace-reverse-outline$$
-  - $$mdi:alpha-w-box$$
-  - <
-  - '>'
-  - (
-  - )
-  - {t: '-', s: _}
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - +
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: '`', s: '~'}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - '{'
-  - '}'
-  - Sft+P
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
-  - '~'
-  - _
-  - '#'
-  - NUBS
-  - {t: /, s: '?'}
-  - '|'
-  - Adjust
-  - Lower
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-space$$
-  - {t: Raise, type: held}
-  - {t: Fun/Media, h: toggle}
-  Adjust:
-  - Alt+$$mdi:keyboard-tab$$
-  - {t: Qty-HRM, h: toggle}
-  - {t: Qwerty, h: toggle}
-  - {t: CmkHRM, h: toggle}
-  - {t: Colemak, h: toggle}
-  - {t: rev-Cmk, h: toggle}
-  - $$mdi:arrow-up-bold$$
-  - RGB ON
-  - RGB SAI
-  - RGB BRI
-  - RGB HUI
-  - RGB EFF
-  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
-  - $$mdi:backspace-reverse-outline$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - RGB OFF
-  - RGB SAD
-  - RGB BRD
-  - RGB HUD
-  - RGB EFR
-  - RGB TOG
-  - Adjust 2
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - OUT USB
-  - OUT BLE
-  - '&aim AIM_TOG'
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
-  - '&bl BL_ON'
-  - '&bl BL_OFF'
-  - '&bl BL_INC'
-  - '&bl BL_DEC'
-  - '&bl BL_CYCLE'
-  - '&bl BL_TOG'
-  - {type: held}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:progress-download$$
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: held alternate}
-  - '&studio_unlock'
-  Adjust 2:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Qty-HRM, h: toggle}
-  - {t: Qwerty, h: toggle}
-  - {t: CmkHRM, h: toggle}
-  - {t: Colemak, h: toggle}
-  - {t: rev-Cmk, h: toggle}
-  - $$mdi:arrow-up-bold$$
-  - RGB ON
-  - RGB SAI
-  - RGB BRI
-  - RGB HUI
-  - RGB EFF
-  - BT CLR ALL
-  - $$mdi:backspace-reverse-outline$$
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
-  - {t: BT DISC, h: '2'}
-  - {t: BT DISC, h: '3'}
-  - {t: BT DISC, h: '4'}
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - RGB OFF
-  - RGB SAD
-  - RGB BRD
-  - RGB HUD
-  - RGB EFR
-  - RGB TOG
-  - {type: held}
-  - $$mdi:bluetooth-off$$
-  - $$mdi:bluetooth-off$$
-  - OUT USB
-  - OUT BLE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
-  - '&bl BL_ON'
-  - '&bl BL_OFF'
-  - '&bl BL_INC'
-  - '&bl BL_DEC'
-  - '&bl BL_CYCLE'
-  - '&bl BL_TOG'
-  - {type: held}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:progress-download$$
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: held}
-  - '&studio_unlock'
-  Fun/Media:
-  - $$mdi:keyboard-tab$$
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:play-pause$$
-  - $$mdi:volume-high$$
-  - $$mdi:printer-outline$$
-  - SLCK
-  - PAUSE BREAK
-  - $$mdi:apple-keyboard-caps$$
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-low$$
-  - $$mdi:skip-next$$
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F11
-  - F12
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
-  - Ctl+Sft+N
-  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
-  - $$mdi:volume-off$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - '&studio_unlock'
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:progress-download$$
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {type: held}
   Maxtend:
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-esc$$
@@ -441,6 +196,153 @@ layers:
   - Ctl+$$mdi:keyboard-space$$
   - Raise
   - Fun/Media
+  Adjust:
+  - Alt+$$mdi:keyboard-tab$$
+  - {t: Qty-HRM, h: toggle}
+  - {t: Qwerty, h: toggle}
+  - {t: CmkHRM, h: toggle}
+  - {t: Colemak, h: toggle}
+  - {t: rev-Cmk, h: toggle}
+  - $$mdi:arrow-up-bold$$
+  - RGB ON
+  - RGB SAI
+  - RGB BRI
+  - RGB HUI
+  - RGB EFF
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - RGB OFF
+  - RGB SAD
+  - RGB BRD
+  - RGB HUD
+  - RGB EFR
+  - {t: RGB TOG, type: held alternate}
+  - Adjust 2
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - OUT USB
+  - OUT BLE
+  - '&aim AIM_TOG'
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - '&bl BL_ON'
+  - '&bl BL_OFF'
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - '&bl BL_CYCLE'
+  - '&bl BL_TOG'
+  - {type: held}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '&studio_unlock'
+  Adjust 2:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Qty-HRM, h: toggle}
+  - {t: Qwerty, h: toggle}
+  - {t: CmkHRM, h: toggle}
+  - {t: Colemak, h: toggle}
+  - {t: rev-Cmk, h: toggle}
+  - $$mdi:arrow-up-bold$$
+  - RGB ON
+  - RGB SAI
+  - RGB BRI
+  - RGB HUI
+  - RGB EFF
+  - BT CLR ALL
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - RGB OFF
+  - RGB SAD
+  - RGB BRD
+  - RGB HUD
+  - RGB EFR
+  - {t: RGB TOG, type: held}
+  - {type: held}
+  - $$mdi:bluetooth-off$$
+  - $$mdi:bluetooth-off$$
+  - OUT USB
+  - OUT BLE
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - '&bl BL_ON'
+  - '&bl BL_OFF'
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - '&bl BL_CYCLE'
+  - '&bl BL_TOG'
+  - {type: held}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '&studio_unlock'
+  Lower:
+  - $$mdi:keyboard-esc$$
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - $$mdi:arrow-up-bold$$
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - KP ASTERISK
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - KP ENTER
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F11
+  - F12
+  - AL CALC
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - P
+  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - $$mdi:arrow-down-bold$$
+  - Sft+P
+  - KP 1
+  - KP 2
+  - KP 3
+  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - KP 0
+  - KP DOT
   Mouse:
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-esc$$
@@ -539,6 +441,104 @@ layers:
   - {type: held}
   - Raise
   - Fun/Media
+  Raise:
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:alpha-w-box$$', type: held alternate}
+  - <
+  - '>'
+  - (
+  - )
+  - {t: '-', s: _}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - +
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '`', s: '~', type: held alternate}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '{'
+  - '}'
+  - Sft+P
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - '~'
+  - _
+  - '#'
+  - NUBS
+  - {t: /, s: '?'}
+  - '|'
+  - Adjust
+  - Lower
+  - {t: '$$mdi:backspace$$', type: held alternate}
+  - {t: '$$mdi:keyboard-space$$', type: held alternate}
+  - {t: Raise, type: held}
+  - {t: Fun/Media, h: toggle}
+  Fun/Media:
+  - $$mdi:keyboard-tab$$
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:play-pause$$
+  - $$mdi:volume-high$$
+  - $$mdi:printer-outline$$
+  - SLCK
+  - PAUSE BREAK
+  - {t: '$$mdi:apple-keyboard-caps$$', type: held alternate}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-low$$
+  - $$mdi:skip-next$$
+  - $$mdi:arrow-up-bold$$
+  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F11
+  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - Ctl+Sft+N
+  - {t: Ctl+Sft+M, h: 'Ctl+$$mdi:keyboard-space$$'}
+  - $$mdi:volume-off$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - '&studio_unlock'
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:progress-download$$', type: held alternate}
+  - {t: '$$mdi:progress-download$$', type: held alternate}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {type: held}
   NumTab:
   - $$mdi:keyboard-tab$$
   - Q
@@ -588,104 +588,6 @@ layers:
   - $$mdi:keyboard-space$$
   - Raise
   - Fun/Media
-  AltGr:
-  - $$mdi:keyboard-tab$$
-  - '&uml_a'
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - '&uml_u'
-  - '&uml_o'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
-  - A
-  - S
-  - {t: '&uml_sz', h: AltGrShft}
-  - F
-  - G
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - H
-  - J
-  - {t: K, h: AltGrShft}
-  - L
-  - {t: ;, s: ':'}
-  - .
-  - {t: '$$mdi:apple-keyboard-shift$$', h: AltGrShft}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: AltGrShft}
-  - Adjust
-  - Lower
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - Raise
-  - Fun/Media
-  AltGrShft:
-  - $$mdi:keyboard-tab$$
-  - '&umu_a'
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - '&umu_u'
-  - '&umu_o'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
-  - A
-  - S
-  - {t: '&uml_sz', type: held}
-  - F
-  - G
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - H
-  - J
-  - {t: K, type: held alternate}
-  - L
-  - {t: ;, s: ':'}
-  - .
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
-  - Adjust
-  - Lower
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - Raise
-  - Fun/Media
   CmkHRM:
   - $$mdi:keyboard-tab$$
   - Q
@@ -702,7 +604,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', h: Maxtend}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: R, h: AltGr}
+  - {t: R, h: AltGrShft}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: T, h: '$$mdi:apple-keyboard-control$$'}
   - {t: D, h: LGUI}
@@ -712,7 +614,7 @@ layers:
   - {t: H, h: RGUI}
   - {t: N, h: '$$mdi:apple-keyboard-control$$'}
   - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: I, h: AltGr}
+  - {t: I, h: AltGrShft}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ., h: Maxtend}
   - $$mdi:apple-keyboard-shift$$
@@ -831,6 +733,104 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: Lower}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-space$$', h: NumSpc}
+  - Raise
+  - Fun/Media
+  AltGr:
+  - $$mdi:keyboard-tab$$
+  - '&uml_a'
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - '&uml_u'
+  - '&uml_o'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-caps$$
+  - A
+  - S
+  - {t: '&uml_sz', h: Qty-HRM}
+  - F
+  - G
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - H
+  - J
+  - {t: K, h: Qty-HRM}
+  - L
+  - {t: ;, s: ':'}
+  - .
+  - {t: '$$mdi:apple-keyboard-shift$$', h: Qty-HRM}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: Qty-HRM}
+  - Adjust
+  - Lower
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - Raise
+  - Fun/Media
+  AltGrShft:
+  - $$mdi:keyboard-tab$$
+  - '&umu_a'
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - '&umu_u'
+  - '&umu_o'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-caps$$
+  - A
+  - {t: S, type: held}
+  - '&uml_sz'
+  - F
+  - G
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - H
+  - J
+  - K
+  - {t: L, type: held alternate}
+  - {t: ;, s: ':'}
+  - .
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
+  - Adjust
+  - Lower
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - Raise
   - Fun/Media
 combos:
