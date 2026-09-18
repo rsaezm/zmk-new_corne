@@ -272,8 +272,8 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
-  - .
+  - {t: '''', s: '"'}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -286,7 +286,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Adjust
   - Lower
