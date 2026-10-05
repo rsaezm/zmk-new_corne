@@ -184,12 +184,12 @@ layers:
   - '&aim AIM_TOG'
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - '&bl BL_ON'
-  - '&bl BL_OFF'
-  - '&bl BL_INC'
-  - '&bl BL_DEC'
-  - '&bl BL_CYCLE'
-  - '&bl BL_TOG'
+  - RGB SPI
+  - RGB SPD
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
