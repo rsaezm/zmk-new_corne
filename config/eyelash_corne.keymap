@@ -468,7 +468,7 @@
             bindings = <
 &kp ESCAPE      &kp ESC    &msc SCRL_UP    &kp C_AC_BACK  &kp C_AC_FORWARD  &kp KP_NUMLOCK                         &kp UP                &kp PG_UP      &kp HOME  &kp UP    &kp END    &kp DEL    &kp INS
 &kp TAB         &kp LALT   &msc SCRL_DOWN  &kp LSHFT      &kp LCTRL         &kp LGUI                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp PG_DN      &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSPC   &kp ENTER
-&mt LSHFT CAPS  &kp LC(Z)  &kp LC(X)       &kp LC(C)      &kp LC(V)         &kp LC(B)       &kp SPACE              &kp DOWN              &trans         &trans    &trans    &kp RCTRL  &kp K_APP  &kp RSHFT
+&mt LSHFT CAPS  &kp LC(Z)  &kp LC(X)       &kp LC(C)      &kp LC(V)         &kp LC(B)       &kp SPACE              &kp DOWN              &kp TILDE      &trans    &trans    &kp RCTRL  &kp K_APP  &kp RSHFT
                                            &mo ADJ        &kp LA(TAB)       &kp ENTER                                                    &kp LC(SPACE)  &mo RSE   &mo FUN
             >;
         };
