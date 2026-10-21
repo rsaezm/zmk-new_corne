@@ -361,8 +361,8 @@
         qwerty_hr_layer {
             display-name = "Qty-HRM";
             bindings = <
-&kp TAB         &kp Q        &kp W        &kp E         &kp R         &kp T                                                &kp UP                &kp Y          &kp U         &kp I         &kp O        &kp P           &kp BSPC
-&lt MAX BSPC    &hml LALT A  &hml RALT S  &hml LSHFT D  &hml LCTRL F  &hml LGUI G                                &kp LEFT  &kp ENTER  &kp RIGHT  &hmr RGUI H    &hmr LCTRL J  &hmr RSHFT K  &hmr RALT L  &hmr LALT SEMI  &lt MAX APOS
+&kp ESCAPE      &kp Q        &kp W        &kp E         &kp R         &kp T                                                &kp UP                &kp Y          &kp U         &kp I         &kp O        &kp P           &kp BSPC
+&lt MAX TAB     &hml LALT A  &hml RALT S  &hml LSHFT D  &hml LCTRL F  &hml LGUI G                                &kp LEFT  &kp ENTER  &kp RIGHT  &hmr RGUI H    &hmr LCTRL J  &hmr RSHFT K  &hmr RALT L  &hmr LALT SEMI  &lt MAX APOS
 &mt LSHFT CAPS  &kp Z        &kp X        &kp C         &kp V         &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N          &kp M         &kp COMMA     &kp DOT      &kp SLASH       &mt RSHFT ENTER
                                           &mo ADJ       &lt LOW TAB   &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE       &mo FUN
             >;
@@ -371,30 +371,30 @@
         qwerty_layer {
             display-name = "Qwerty";
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp E    &kp R        &kp T                                                &kp UP                &kp Y          &kp U    &kp I      &kp O    &kp P      &kp BSPC
-&lt MAX BSPC  &kp A  &kp S  &kp D    &kp F        &kp G                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp J    &kp K      &kp L    &kp SEMI   &lt MAX APOS
-&kp LSHFT     &kp Z  &kp X  &kp C    &kp V        &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N          &kp M    &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
-                            &mo ADJ  &lt LOW TAB  &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE  &mo FUN
+&kp ESCAPE      &kp Q  &kp W  &kp E    &kp R        &kp T                                                &kp UP                &kp Y          &kp U    &kp I      &kp O    &kp P      &kp BSPC
+&lt MAX TAB     &kp A  &kp S  &kp D    &kp F        &kp G                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp J    &kp K      &kp L    &kp SEMI   &lt MAX APOS
+&mt LSHFT CAPS  &kp Z  &kp X  &kp C    &kp V        &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp N          &kp M    &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
+                              &mo ADJ  &lt LOW TAB  &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE  &mo FUN
             >;
         };
 
         colemak_hr_layer {
             display-name = "CmkHRM";
             bindings = <
-&kp TAB       &kp Q        &kp W       &kp F         &kp P         &kp G                                                &kp UP                &kp J          &kp L         &kp U         &kp Y       &kp SEMI     &kp BSPC
-&lt MAX BSPC  &hml LALT A  &hll AGR R  &hml LSHFT S  &hml LCTRL T  &hml LGUI D                                &kp LEFT  &kp ENTER  &kp RIGHT  &hmr RGUI H    &hmr LCTRL N  &hmr RSHFT E  &hlr AGR I  &hmr LALT O  &lt MAX APOS
-&kp LSHFT     &kp Z        &kp X       &kp C         &kp V         &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp K          &kp M         &kp COMMA     &kp DOT     &kp SLASH    &mt RSHFT ENTER
-                                       &mo ADJ       &lt LOW TAB   &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE       &mo FUN
+&kp ESCAPE      &kp Q        &kp W       &kp F         &kp P         &kp G                                                &kp UP                &kp J          &kp L         &kp U         &kp Y       &kp SEMI     &kp BSPC
+&lt MAX TAB     &hml LALT A  &hll AGR R  &hml LSHFT S  &hml LCTRL T  &hml LGUI D                                &kp LEFT  &kp ENTER  &kp RIGHT  &hmr RGUI H    &hmr LCTRL N  &hmr RSHFT E  &hlr AGR I  &hmr LALT O  &lt MAX APOS
+&mt LSHFT CAPS  &kp Z        &kp X       &kp C         &kp V         &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp K          &kp M         &kp COMMA     &kp DOT     &kp SLASH    &mt RSHFT ENTER
+                                         &mo ADJ       &lt LOW TAB   &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE       &mo FUN
             >;
         };
 
         colemak_layer {
             display-name = "Colemak";
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp F    &kp P        &kp G                                                &kp UP                &kp J          &kp L    &kp U      &kp Y    &kp SEMI   &kp BSPC
-&lt MAX BSPC  &kp A  &kp R  &kp S    &kp T        &kp D                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp N    &kp E      &kp I    &kp O      &lt MAX APOS
-&kp LSHFT     &kp Z  &kp X  &kp C    &kp V        &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp K          &kp M    &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
-                            &mo ADJ  &lt LOW TAB  &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE  &mo FUN
+&kp ESCAPE      &kp Q  &kp W  &kp F    &kp P        &kp G                                                &kp UP                &kp J          &kp L    &kp U      &kp Y    &kp SEMI   &kp BSPC
+&lt MAX TAB     &kp A  &kp R  &kp S    &kp T        &kp D                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp N    &kp E      &kp I    &kp O      &lt MAX APOS
+&mt LSHFT CAPS  &kp Z  &kp X  &kp C    &kp V        &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp K          &kp M    &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
+                              &mo ADJ  &lt LOW TAB  &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE  &mo FUN
             >;
         };
 
@@ -403,10 +403,10 @@
 
             display-name = "rev-Cmk";
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp K    &kp S        &kp F                                                &kp UP                &kp O          &kp I    &kp L      &kp SEMI  &kp R      &kp BSPC
-&lt MAX BSPC  &kp A  &kp D  &kp G    &kp E        &kp T                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp Y    &kp N      &kp U     &kp P      &lt MAX APOS
-&kp LSHFT     &kp Z  &kp X  &kp C    &kp V        &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp J          &kp M    &kp COMMA  &kp DOT   &kp SLASH  &mt RSHFT ENTER
-                            &mo ADJ  &lt LOW TAB  &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE  &mo FUN
+&kp ESCAPE      &kp Q  &kp W  &kp K    &kp S        &kp F                                                &kp UP                &kp O          &kp I    &kp L      &kp SEMI  &kp R      &kp BSPC
+&lt MAX TAB     &kp A  &kp D  &kp G    &kp E        &kp T                                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H          &kp Y    &kp N      &kp U     &kp P      &lt MAX APOS
+&mt LSHFT CAPS  &kp Z  &kp X  &kp C    &kp V        &kp B          &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp J          &kp M    &kp COMMA  &kp DOT   &kp SLASH  &mt RSHFT ENTER
+                              &mo ADJ  &lt LOW TAB  &lt MSE SPACE                                                              &lt NSP SPACE  &mo RSE  &mo FUN
             >;
         };
 
@@ -433,18 +433,18 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&kp ESC     &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                            &kp UP                &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp DEL
-&caps_word  &kp LT    &kp GT    &kp LPAR  &kp RPAR  &kp MINUS               &kp LEFT  &kp ENTER  &kp RIGHT  &kp PLUS   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp GRAVE
-&kp LSHFT   &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC  &kp LS(P)  &kp SPACE              &kp DOWN              &kp TILDE  &kp UNDER  &kp NUHS   &kp NUBS  &kp BSLH  &kp PIPE
-                                &mo ADJ   &mo LOW   &kp BSPC                                                &kp SPACE  &mo RSE    &tog FUN
+&kp ESC         &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                            &kp UP                &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp DEL
+&caps_word      &kp LT    &kp GT    &kp LPAR  &kp RPAR  &kp MINUS               &kp LEFT  &kp ENTER  &kp RIGHT  &kp PLUS   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp GRAVE
+&mt LSHFT CAPS  &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC  &kp LS(P)  &kp SPACE              &kp DOWN              &kp TILDE  &kp UNDER  &kp NUHS   &kp NUBS  &kp BSLH  &kp PIPE
+                                    &mo ADJ   &mo LOW   &kp BSPC                                                &kp SPACE  &mo RSE    &tog FUN
             >;
         };
 
         adjust_layer {
             display-name = "Adjust";
             bindings = <
-&kp LA(TAB)  &to QTY       &to QTY_HR    &to CMK       &to CMK_HR    &to CMR                              &kp UP                &rgb_ug RGB_ON   &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &kp LC(LA(DEL))
-&kp DEL      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4               &kp LEFT  &kp ENTER  &kp RIGHT  &rgb_ug RGB_OFF  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG
+&kp ESCAPE   &to QTY       &to QTY_HR    &to CMK       &to CMK_HR    &to CMR                              &kp UP                &rgb_ug RGB_ON   &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &kp LC(LA(DEL))
+&kp LA(DEL)  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4               &kp LEFT  &kp ENTER  &kp RIGHT  &rgb_ug RGB_OFF  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG
 &mo AJ2      &none         &out OUT_TOG  &out OUT_USB  &out OUT_BLE  &aim AIM_TOG  &kp SPACE              &kp DOWN              &bl BL_ON        &bl BL_OFF       &bl BL_INC       &bl BL_DEC       &bl BL_CYCLE     &bl BL_TOG
                                          &trans        &sys_reset    &bootloader                                                &bootloader      &sys_reset       &studio_unlock
             >;
@@ -456,50 +456,50 @@
             // &kp LC(LS(N)) will actually produce LC(LS(K)) on a Colemak host map - "raise hand" in MS Teams
 
             bindings = <
-&kp TAB   &kp F1   &kp F2   &kp F3          &kp F4      &kp F5                              &kp UP                &trans         &kp C_PP                  &kp C_VOL_UP  &kp PSCRN   &kp SLCK  &kp PAUSE_BREAK
-&kp CAPS  &kp F6   &kp F7   &kp F8          &kp F9      &kp F10                   &kp LEFT  &kp ENTER  &kp RIGHT  &trans         &kp C_PREV                &kp C_VOL_DN  &kp C_NEXT  &kp UP    &trans
-&trans    &kp F11  &kp F12  &trans          &trans      &trans       &kp SPACE              &kp DOWN              &kp LC(LS(N))  &mup LC(SPACE) LC(LS(M))  &kp C_MUTE    &kp LEFT    &kp DOWN  &kp RIGHT
-                            &studio_unlock  &sys_reset  &bootloader                                               &bootloader    &sys_reset                &trans
+&kp ESCAPE  &kp F1   &kp F2   &kp F3          &kp F4      &kp F5                              &kp UP                &trans         &kp C_PP                  &kp C_VOL_UP  &kp PSCRN   &kp SLCK  &kp PAUSE_BREAK
+&kp TAB     &kp F6   &kp F7   &kp F8          &kp F9      &kp F10                   &kp LEFT  &kp ENTER  &kp RIGHT  &trans         &kp C_PREV                &kp C_VOL_DN  &kp C_NEXT  &kp UP    &trans
+&kp CAPS    &kp F11  &kp F12  &trans          &trans      &trans       &kp SPACE              &kp DOWN              &kp LC(LS(N))  &mup LC(SPACE) LC(LS(M))  &kp C_MUTE    &kp LEFT    &kp DOWN  &kp RIGHT
+                              &studio_unlock  &sys_reset  &bootloader                                               &bootloader    &sys_reset                &trans
             >;
         };
 
         maxtend_layer {
             display-name = "Maxtend";
             bindings = <
-&kp TAB    &kp ESC    &msc SCRL_UP    &kp C_AC_BACK  &kp C_AC_FORWARD  &kp KP_NUMLOCK                         &kp UP                &kp PG_UP      &kp HOME  &kp UP    &kp END    &kp DEL    &kp INS
-&trans     &kp LALT   &msc SCRL_DOWN  &kp LSHFT      &kp LCTRL         &kp LGUI                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp PG_DN      &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSPC   &kp ENTER
-&kp LSHFT  &kp LC(Z)  &kp LC(X)       &kp LC(C)      &kp LC(V)         &kp LC(B)       &kp SPACE              &kp DOWN              &trans         &trans    &trans    &kp RCTRL  &kp K_APP  &kp RSHFT
-                                      &mo ADJ        &kp LA(TAB)       &kp ENTER                                                    &kp LC(SPACE)  &mo RSE   &mo FUN
+&kp ESCAPE      &kp ESC    &msc SCRL_UP    &kp C_AC_BACK  &kp C_AC_FORWARD  &kp KP_NUMLOCK                         &kp UP                &kp PG_UP      &kp HOME  &kp UP    &kp END    &kp DEL    &kp INS
+&kp TAB         &kp LALT   &msc SCRL_DOWN  &kp LSHFT      &kp LCTRL         &kp LGUI                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp PG_DN      &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSPC   &kp ENTER
+&mt LSHFT CAPS  &kp LC(Z)  &kp LC(X)       &kp LC(C)      &kp LC(V)         &kp LC(B)       &kp SPACE              &kp DOWN              &trans         &trans    &trans    &kp RCTRL  &kp K_APP  &kp RSHFT
+                                           &mo ADJ        &kp LA(TAB)       &kp ENTER                                                    &kp LC(SPACE)  &mo RSE   &mo FUN
             >;
         };
 
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-&kp ESC    &kp ESC        &kp LC(W)      &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LC(F)                                        &kp UP                &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp P      &kp BSPC
-&kp CAPS   &kp A          &mkp MB2       &mkp MB3       &mkp MB1       &kp G                                  &kp LEFT  &kp ENTER  &kp RIGHT  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp ENTER  &kp ENTER
-&kp LSHFT  &kp C_AL_LOCK  &kp LC(LS(X))  &kp LC(LS(C))  &kp LC(LS(V))  &mup LC(SPACE) LC(LS(M))  &kp SPACE              &kp DOWN              &kp LC(LS(N))   &kp M           &kp COMMA       &kp DOT          &kp SLASH  &kp RSHFT
-                                         &mo ADJ        &mo LOW        &kp SPACE                                                              &mkp MB1        &mo RSE         &mo FUN
+&kp ESC         &kp ESC        &kp LC(W)      &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LC(F)                                        &kp UP                &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp P      &kp BSPC
+&kp TAB         &kp A          &mkp MB2       &mkp MB3       &mkp MB1       &kp G                                  &kp LEFT  &kp ENTER  &kp RIGHT  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp ENTER  &kp ENTER
+&mt LSHFT CAPS  &kp C_AL_LOCK  &kp LC(LS(X))  &kp LC(LS(C))  &kp LC(LS(V))  &mup LC(SPACE) LC(LS(M))  &kp SPACE              &kp DOWN              &kp LC(LS(N))   &kp M           &kp COMMA       &kp DOT          &kp SLASH  &kp RSHFT
+                                              &mo ADJ        &mo LOW        &kp SPACE                                                              &mkp MB1        &mo RSE         &mo FUN
             >;
         };
 
         numspace_layer {
             display-name = "NumSpc";
             bindings = <
-&kp TAB    &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                         &kp UP                &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR   &kp MINUS
-&trans     &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                  &kp LEFT  &kp ENTER  &kp RIGHT  &kp N6     &kp N7    &kp N8     &kp N9    &kp N0     &kp PLUS
-&kp LSHFT  &kp MINUS  &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC   &kp SPACE              &kp DOWN              &kp LS(P)  &kp P     &kp COMMA  &kp DOT   &kp SLASH  &mt RSHFT EQUAL
-                                &mo ADJ   &mo LOW   &kp ENTER                                               &trans     &mo RSE   &mo FUN
+&kp ESCAPE      &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                         &kp UP                &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR   &kp MINUS
+&trans          &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                  &kp LEFT  &kp ENTER  &kp RIGHT  &kp N6     &kp N7    &kp N8     &kp N9    &kp N0     &kp PLUS
+&mt LSHFT CAPS  &kp MINUS  &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC   &kp SPACE              &kp DOWN              &kp LS(P)  &kp P     &kp COMMA  &kp DOT   &kp SLASH  &mt RSHFT EQUAL
+                                     &mo ADJ   &mo LOW   &kp ENTER                                               &trans     &mo RSE   &mo FUN
             >;
         };
 
         numtab_layer {
             display-name = "NumTab";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E    &kp R    &kp T                             &kp UP                &kp Y      &kp U    &kp I      &kp O    &kp P      &kp BSPC
-&kp CAPS   &kp A  &kp S  &kp D    &kp F    &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J    &kp K      &kp L    &kp SEMI   &kp APOS
-&kp LSHFT  &kp Z  &kp X  &kp C    &kp V    &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M    &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
-                         &mo ADJ  &mo LOW  &kp SPACE                                               &kp SPACE  &mo RSE  &mo FUN
+&kp ESCAPE      &kp Q  &kp W  &kp E    &kp R    &kp T                             &kp UP                &kp Y      &kp U    &kp I      &kp O    &kp P      &kp BSPC
+&kp TAB         &kp A  &kp S  &kp D    &kp F    &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J    &kp K      &kp L    &kp SEMI   &kp APOS
+&mt LSHFT CLCK  &kp Z  &kp X  &kp C    &kp V    &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M    &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
+                              &mo ADJ  &mo LOW  &kp SPACE                                               &kp SPACE  &mo RSE  &mo FUN
             >;
         };
 
@@ -512,8 +512,8 @@
         altgr_layer {
             display-name = "AltGr";
             bindings = <
-&kp TAB        &uml_a  &kp W  &kp E       &kp R    &kp T                             &kp UP                &kp Y      &kp U    &kp I      &uml_u   &uml_o     &kp BSPC
-&kp CAPS       &kp A   &kp S  &lsz AGS 0  &kp F    &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J    &lt AGS K  &kp L    &kp SEMI   &kp APOS
+&kp ESCAPE     &uml_a  &kp W  &kp E       &kp R    &kp T                             &kp UP                &kp Y      &kp U    &kp I      &uml_u   &uml_o     &kp BSPC
+&kp TAB        &kp A   &kp S  &lsz AGS 0  &kp F    &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J    &lt AGS K  &kp L    &kp SEMI   &kp APOS
 &lt AGS LSHFT  &kp Z   &kp X  &kp C       &kp V    &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M    &kp COMMA  &kp DOT  &kp SLASH  &lt AGS RSHFT
                               &mo ADJ     &mo LOW  &kp SPACE                                               &kp SPACE  &mo RSE  &mo FUN
             >;
@@ -522,10 +522,10 @@
         altgrshift_layer {
             display-name = "AltGrShft";
             bindings = <
-&kp TAB    &umu_a  &kp W  &kp E    &kp R    &kp T                             &kp UP                &kp Y      &kp U    &kp I      &umu_u   &umu_o     &kp BSPC
-&kp CAPS   &kp A   &kp S  &uml_sz  &kp F    &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J    &kp K      &kp L    &kp SEMI   &kp APOS
-&kp LSHFT  &kp Z   &kp X  &kp C    &kp V    &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M    &kp COMMA  &kp DOT  &kp SLASH  &kp RSHFT
-                          &mo ADJ  &mo LOW  &kp SPACE                                               &kp SPACE  &mo RSE  &mo FUN
+&kp ESCAPE      &umu_a  &kp W  &kp E    &kp R    &kp T                             &kp UP                &kp Y      &kp U    &kp I      &umu_u   &umu_o     &kp BSPC
+&kp TAB         &kp A   &kp S  &uml_sz  &kp F    &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J    &kp K      &kp L    &kp SEMI   &kp APOS
+&mt LSHFT CAPS  &kp Z   &kp X  &kp C    &kp V    &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M    &kp COMMA  &kp DOT  &kp SLASH  &kp RSHFT
+                               &mo ADJ  &mo LOW  &kp SPACE                                               &kp SPACE  &mo RSE  &mo FUN
             >;
         };
 
