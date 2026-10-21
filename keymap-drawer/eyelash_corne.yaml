@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   Qty-HRM:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - {t: '$$mdi:keyboard-tab$$', h: Maxtend}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -50,7 +50,7 @@ layers:
   - Raise
   - Fun/Media
   Qwerty:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -63,7 +63,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - {t: '$$mdi:keyboard-tab$$', h: Maxtend}
   - A
   - S
   - D
@@ -78,7 +78,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: ., h: Maxtend}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
@@ -99,7 +99,7 @@ layers:
   - Raise
   - Fun/Media
   CmkHRM:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - F
@@ -112,7 +112,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - {t: '$$mdi:keyboard-tab$$', h: Maxtend}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: R, h: AltGr}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
@@ -127,7 +127,7 @@ layers:
   - {t: I, h: AltGr}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ., h: Maxtend}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
@@ -148,7 +148,7 @@ layers:
   - Raise
   - Fun/Media
   Colemak:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - F
@@ -161,7 +161,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - {t: '$$mdi:keyboard-tab$$', h: Maxtend}
   - A
   - R
   - S
@@ -176,7 +176,7 @@ layers:
   - I
   - O
   - {t: ., h: Maxtend}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
@@ -197,7 +197,7 @@ layers:
   - Raise
   - Fun/Media
   rev-Cmk:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - K
@@ -210,7 +210,7 @@ layers:
   - {t: ;, s: ':'}
   - R
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', h: Maxtend}
+  - {t: '$$mdi:keyboard-tab$$', h: Maxtend}
   - A
   - D
   - G
@@ -225,7 +225,7 @@ layers:
   - U
   - P
   - {t: ., h: Maxtend}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
@@ -372,7 +372,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '`', s: '~'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '{'
@@ -393,7 +393,7 @@ layers:
   - {t: Raise, type: held}
   - {t: Fun/Media, h: toggle}
   Adjust:
-  - Alt+$$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - {t: Qwerty, h: toggle}
   - {t: Qty-HRM, h: toggle}
   - {t: Colemak, h: toggle}
@@ -406,7 +406,7 @@ layers:
   - RGB HUI
   - RGB EFF
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
-  - $$mdi:backspace-reverse-outline$$
+  - Alt+$$mdi:backspace-reverse-outline$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -442,7 +442,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: held alternate}
   - '&studio_unlock'
   Fun/Media:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
@@ -455,7 +455,7 @@ layers:
   - $$mdi:printer-outline$$
   - SLCK
   - PAUSE BREAK
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:keyboard-tab$$
   - F6
   - F7
   - F8
@@ -470,7 +470,7 @@ layers:
   - $$mdi:skip-next$$
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -491,7 +491,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {type: held}
   Maxtend:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-esc$$
   - $$mdi:pan-up$$
   - AC BACK
@@ -504,7 +504,7 @@ layers:
   - END
   - $$mdi:backspace-reverse-outline$$
   - INS
-  - {type: held}
+  - {t: '$$mdi:keyboard-tab$$', type: held}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:pan-down$$
   - $$mdi:apple-keyboard-shift$$
@@ -519,7 +519,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
@@ -553,7 +553,7 @@ layers:
   - $$mdi:pan-right$$
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:keyboard-tab$$
   - A
   - '&mkp MB2'
   - '&mkp MB3'
@@ -568,7 +568,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:lock$$
   - Ctl+Sft+X
   - Ctl+Sft+C
@@ -589,7 +589,7 @@ layers:
   - Raise
   - Fun/Media
   NumSpc:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - '!'
   - '@'
   - '#'
@@ -617,7 +617,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - +
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '-', s: _}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -638,7 +638,7 @@ layers:
   - Raise
   - Fun/Media
   NumTab:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -651,7 +651,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
@@ -666,7 +666,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - .
-  - $$mdi:apple-keyboard-shift$$
+  - {t: CLCK, h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
@@ -687,7 +687,7 @@ layers:
   - Raise
   - Fun/Media
   AltGr:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - '&uml_a'
   - W
   - E
@@ -700,7 +700,7 @@ layers:
   - '&uml_u'
   - '&uml_o'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:keyboard-tab$$
   - A
   - {t: S, type: held}
   - {t: '&uml_sz', h: AltGrShft}
@@ -736,7 +736,7 @@ layers:
   - Raise
   - Fun/Media
   AltGrShft:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - '&umu_a'
   - W
   - E
@@ -749,7 +749,7 @@ layers:
   - '&umu_u'
   - '&umu_o'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:keyboard-tab$$
   - A
   - {t: S, type: held}
   - {t: '&uml_sz', type: held}
@@ -764,7 +764,7 @@ layers:
   - {t: L, type: held}
   - {t: ;, s: ':'}
   - .
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - Z
   - X
   - C
