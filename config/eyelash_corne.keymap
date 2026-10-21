@@ -413,7 +413,7 @@
         transparent_layer {
             display-name = "QWERTY (base)";
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E    &kp R    &kp T                             &kp UP                &kp Y      &kp U    &kp I      &kp O    &kp P      &kp BSPC
+&kp ESCAPE      &kp Q  &kp W  &kp E    &kp R    &kp T                             &kp UP                &kp Y      &kp U    &kp I      &kp O    &kp P      &kp BSPC
 &kp TAB         &kp A  &kp S  &kp D    &kp F    &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J    &kp K      &kp L    &kp SEMI   &kp APOS
 &mt LSHFT CAPS  &kp Z  &kp X  &kp C    &kp V    &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M    &kp COMMA  &kp DOT  &kp SLASH  &mt RSHFT ENTER
                               &mo ADJ  &mo LOW  &kp SPACE                                               &kp SPACE  &mo RSE  &mo FUN
@@ -423,17 +423,17 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&kp ESC  &kp F1   &kp F2   &kp F3         &kp F4  &kp F5                                           &kp UP                &kp KP_SLASH     &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_MINUS  &kp BSPC
-&trans   &kp F6   &kp F7   &kp F8         &kp F9  &kp F10                                &kp LEFT  &kp ENTER  &kp RIGHT  &kp KP_ASTERISK  &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_PLUS   &kp KP_ENTER
-&trans   &kp F11  &kp F12  &kp C_AL_CALC  &none   &kp P      &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp LS(P)        &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp EQUAL     &trans
-                           &trans         &trans  &kp SPACE                                                              &kp SPACE        &kp KP_N0  &kp KP_DOT
+&kp ESCAPE  &kp F1   &kp F2   &kp F3         &kp F4  &kp F5                                           &kp UP                &kp KP_SLASH     &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_MINUS  &kp BSPC
+&trans      &kp F6   &kp F7   &kp F8         &kp F9  &kp F10                                &kp LEFT  &kp ENTER  &kp RIGHT  &kp KP_ASTERISK  &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_PLUS   &kp KP_ENTER
+&trans      &kp F11  &kp F12  &kp C_AL_CALC  &none   &kp P      &mup LC(SPACE) LC(LS(M))              &kp DOWN              &kp LS(P)        &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp EQUAL     &trans
+                              &trans         &trans  &kp SPACE                                                              &kp SPACE        &kp KP_N0  &kp KP_DOT
             >;
         };
 
         raise_layer {
             display-name = "Raise";
             bindings = <
-&kp ESC         &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                            &kp UP                &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp DEL
+&kp ESCAPE      &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                            &kp UP                &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp DEL
 &caps_word      &kp LT    &kp GT    &kp LPAR  &kp RPAR  &kp MINUS               &kp LEFT  &kp ENTER  &kp RIGHT  &kp PLUS   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp GRAVE
 &mt LSHFT CAPS  &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC  &kp LS(P)  &kp SPACE              &kp DOWN              &kp TILDE  &kp UNDER  &kp NUHS   &kp NUBS  &kp BSLH  &kp PIPE
                                     &mo ADJ   &mo LOW   &kp BSPC                                                &kp SPACE  &mo RSE    &tog FUN
@@ -476,7 +476,7 @@
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-&kp ESC         &kp ESC        &kp LC(W)      &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LC(F)                                        &kp UP                &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp P      &kp BSPC
+&kp ESCAPE      &kp ESC        &kp LC(W)      &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LC(F)                                        &kp UP                &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp P      &kp BSPC
 &kp TAB         &kp A          &mkp MB2       &mkp MB3       &mkp MB1       &kp G                                  &kp LEFT  &kp ENTER  &kp RIGHT  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp ENTER  &kp ENTER
 &mt LSHFT CAPS  &kp C_AL_LOCK  &kp LC(LS(X))  &kp LC(LS(C))  &kp LC(LS(V))  &mup LC(SPACE) LC(LS(M))  &kp SPACE              &kp DOWN              &kp LC(LS(N))   &kp M           &kp COMMA       &kp DOT          &kp SLASH  &kp RSHFT
                                               &mo ADJ        &mo LOW        &kp SPACE                                                              &mkp MB1        &mo RSE         &mo FUN
